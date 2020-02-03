@@ -1,0 +1,136 @@
+body{
+  background-color: grey;
+  margin:0;
+}
+.navbar{                                    /**partition 1**/
+  background-color: orange;                /** IT STILL NEEDS MANY MODIFICATIONS**/
+  font-size: 5px;
+  border-bottom: 3px solid;
+  height:auto;
+}
+.navbar img{
+  height: 70px;
+  width: 70px;
+  padding-bottom: .5em;
+}
+.navbar ul {
+  display: inline-block;
+  list-style:none;
+  text-align: center;
+}
+.navbar li{
+  text-align: center;
+  display:inline-block;
+  padding-left: 15em;
+  padding-right: 25em;
+  padding-top: 0px;
+}
+.navbar a{
+  font-size: 20px;
+  color:white;
+  text-decoration: none;
+  padding-left: 5px;
+}
+.navbar a:hover{
+  background-color: blue;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.div2{                               /**partition 2**/
+  display: block;
+  background: url("img2.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+  width: 100%;
+}
+
+.div3 {                              /** partition 3**/
+  width: 100%;
+  height: 500px;
+}
+
+.div3-1 {
+  width: 50%;
+  float: left;
+  height: 500px;
+  background: url("op7tpro.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.div3-2 {
+  width: 50%;
+  height: 500px;
+  background: url("op7t.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.div4 {                             /**partition 4**/
+  width: 100%;
+  height: 500px;
+}
+
+.div4-1 {
+  width: 50%;
+  float: left;
+  height: 500px;
+  background: url("op7pro.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.div4-2 {
+  width: 50%;
+  height: 500px;
+  background: url("op7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.div5 {                             /**partition 5**/
+  width: 100%;
+  height: 500px;
+}
+
+.div5-1 {
+  width: 50%;
+  float: left;
+  height: 500px;
+  background: url("op6t.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.div5-2 {
+  width: 50%;
+  height: 500px;
+  background: url("op6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.div6 {                           /**partition 6 , i.e , partition before footer **/
+  width:100%;
+  height:250px;
+}
+.div6 dt{
+  color: green;
+}
+.div6-1{                          /** partition column styling **/
+  display: inline-block;
+  width:25%;
+  height: 100%;
+  background-color: maroon;
+  color:white;
+  text-align: center;
+  margin: 0;padding: 0;
+}
