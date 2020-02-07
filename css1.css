@@ -1,0 +1,135 @@
+body{
+  background-color: grey;
+  margin:0;
+}
+.navbar{                                    /**partition 1**/
+  background-color: orange;                /** IT STILL NEEDS MANY MODIFICATIONS**/
+  width: 100%;
+    display: inline-block;
+    height: 48px;
+}
+.navbar img{
+  float: left;
+  padding-left: 1em;
+  height: 50px;;
+  width: 50px;
+}
+.navbar a{
+  padding: 14px 16px;
+  display: inline-block;
+  position: relative;
+  left: 400px;
+  text-decoration: none;
+  color: white;
+}
+.navbar a:hover {
+  background-color: black;
+}
+.comp-name{
+  font-size: 22px;
+  font-weight: bold;
+}
+.div2{                               /**partition 2**/
+  display: inline-block;
+  background: url("img2.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 750px;;
+  width: 100%;
+}
+
+.div3 {                              /** partition 3**/
+  width: 100%;
+  height: 500px;
+}
+
+.div3-1 {
+  width: 50%;
+  float: left;
+  height: 500px;
+  background: url("op7tpro.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.div3-2 {
+  width: 50%;
+  height: 500px;
+  background: url("op7t.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.div4 {                             /**partition 4**/
+  width: 100%;
+  height: 500px;
+}
+
+.div4-1 {
+  width: 50%;
+  float: left;
+  height: 500px;
+  background: url("op7pro.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.div4-2 {
+  width: 50%;
+  height: 500px;
+  background: url("op7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.div5 {                             /**partition 5**/
+  width: 100%;
+  height: 500px;
+}
+
+.div5-1 {
+  width: 50%;
+  float: left;
+  height: 500px;
+  background: url("op6t.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.div5-2 {
+  width: 50%;
+  height: 500px;
+  background: url("op6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.foot-main{
+  display: inline-flex;
+  position: absolute;
+  left: 325px;
+
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  background-color: #c3c3c3;
+  padding: 2px;
+}
+dt{
+  padding-left: 50px;
+  margin:0;
+  display: inline;
+}
+dl{
+  padding-right:50px;
+}
