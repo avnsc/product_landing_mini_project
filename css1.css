@@ -2,11 +2,11 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background-color: grey;
+  background-color: #2B2828;
   margin:0;
 }
 .navbar{
-  background-color: orange;
+  background-color: #f08415;
   width: 100%;
     display: inline-block;
     height: 48px;
@@ -38,14 +38,26 @@ body{
   font-style: italic;
   font-family: 'Source Code Pro', monospace;
 }
-.div2{                               /**partition 2**/
-  display: inline-block;
-  background: url("img2.jpg");
-  color: white;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 750px;
-  width: 100%;
+.div2 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div2 .web-descrip {
+  position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 35%;
+  font-style: italic;
+  font-family: 'Source Code Pro', monospace;
+  background: rgba(0, 0, 0,0);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+   width: 80%;
 }
 .img-effect{
   -webkit-filter: brightness(70%);
@@ -155,7 +167,7 @@ ul{
 }
 .foot-main ul li a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .foot-main a:hover{
   background-color: #c3c3c3;
@@ -164,7 +176,8 @@ ul{
 dt{
   padding-left: 50px;
   margin:0;
-  display: inline;
+  display: inline
+  color:  #ffffff;
 }
 dl{
   padding-right:50px;
@@ -177,7 +190,7 @@ footer{
   padding-top: 0;
   margin-top: 0;
   width: 100%;
-  background-color: #003704;
+  background-color: #ffb300;
   height: 100px;
   vertical-align:top;
 }
